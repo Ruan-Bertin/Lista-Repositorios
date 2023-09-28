@@ -5,13 +5,30 @@
   font-family: sans-serif;
 }
 
+body{
+  background: #002424;
+  background: radial-gradient(circle, #00242407 0%, #23adf5aa 32%, #2029d2b4 100%);
+}
+
 .container{
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
+
+.pesquisaContainer{
+  background-color: var(--corPrincipal);
+  text-align: center;
+  padding: 5px;
+}
+
+.pesquisaContainer input{
+  height: 25px;
+}
+
 :root{
   --corPrincipal:#273c75;
   --corSecundaria: #111;
-  --corTexto: #fff
+  --corTexto: #fff;
+  --botaoHover: #2875a8de;
 }

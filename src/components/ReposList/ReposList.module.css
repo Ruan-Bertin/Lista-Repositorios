@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+  margin-bottom: 10px;
 }
 
 .listItem{
@@ -24,4 +25,9 @@
   text-decoration: none;
   margin-top: 8px;
   padding: 8px;
+  transition: ease-in-out 500ms;
+}
+
+.itemLink:hover{
+  background-color: var(--botaoHover);
 }
